@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "Testing..."
- 
+      # - run: echo "Testing..."
+
+      - uses: actions/checkout@v6
+
+      - uses: ./.github/actions/test-action
