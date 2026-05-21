@@ -1,0 +1,11 @@
+name: Test Action
+
+description: "A test action for demonstration purposes."
+
+runs:
+  using: composite
+
+  steps:
+
+    - run: echo "Test"
+      shell: bash
